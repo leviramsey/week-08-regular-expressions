@@ -1,6 +1,6 @@
 # Regular Expression Notes
 
-<img src="images/xkcd-208.png" width="50%"
+<img src="../images/xkcd-208.png" width="50%"
      style="display: block; margin-left: auto; margin-right: auto">
 
 ## Overview
