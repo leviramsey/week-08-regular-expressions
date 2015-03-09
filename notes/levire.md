@@ -240,7 +240,7 @@ expression and return the `Regex` object corresponding to the string.
 
 ```scala
 import scala.util.matching.Regex
-val Decimal = """(-)?(\d+)\.(\d*)?""".r
+val Decimal = """(-)?(\d+)\.?(\d*)?""".r
 ```
 
 The triple quotes mean that the string is exactly as typed, without
