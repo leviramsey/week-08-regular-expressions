@@ -43,12 +43,14 @@ Regular expressions are an essential part of Unix culture;
 historically, they’ve tended to only get introduced to other computing
 cultures via Unix refugees.
 
-**History**: Stephen Kleene developed regular expressions in the
-1950s.  For about a decade they were of primarily theoretical
-interest, until Ken Thompson published an efficient algorithm which
-ultimately compiled a regular expression into machine language; he
-would use this algorithm to efficiently implement regular expression
-features in the original Unix text editor ed.
+## History
+
+Stephen Kleene developed regular expressions in the 1950s.  For about
+a decade they were of primarily theoretical interest, until Ken
+Thompson published an efficient algorithm which ultimately compiled a
+regular expression into machine language; he would use this algorithm
+to efficiently implement regular expression features in the original
+Unix text editor ed.
 
 A common use of ed was to print only the lines of a file which matched
 (more properly, which had a substring which matched) a regular
@@ -76,27 +78,29 @@ pattern!).  This also exhibits part of the Unix philosophy: develop
 programs which do a focused task and can be easily combined.
 Composability and delegation as design principles!)
 
-**History**: Another pair of Unix tools for sculpting text are sed and
-awk, which allow for fairly powerful manipulations of text using
-regular expressions.  Their limitations inspired the development of
-the Perl programming language where regular expressions take center
-stage.  From Perl, regular expressions spread out to Python, Ruby,
-Javascript, Java, C#, PHP, and nearly any language above the level of
-assembly language you’ll find in use today.
+Another pair of Unix tools for sculpting text are sed and awk, which
+allow for fairly powerful manipulations of text using regular
+expressions.  Their limitations inspired the development of the Perl
+programming language where regular expressions take center stage.
+From Perl, regular expressions spread out to Python, Ruby, Javascript,
+Java, C#, PHP, and nearly any language above the level of assembly
+language you’ll find in use today.
 
-**Expressing regular expressions**: We can build up regular
-expressions recursively (or if you prefer, inductively).  For pattern
-matching, the lowest level we go is characters (for theoretical
-purposes, there are two regular expressions which are, in a sense,
-even lower level: an expression which only matches the empty string
-("" in most languages you’re familiar with) and an expression which
-doesn’t actually match any string).  The regular expression matching a
-single character is that character (though, since we’re representing
-regular expressions in our code or on the command line as text and as
-we’ll see, some characters have special meanings in the expression, we
-need to escape some characters.  We do this by sticking a \ in front
-of the character (this makes \ such a special character, so the
-pattern that matches a single \ is \\).
+## Expressing regular expressions
+
+We can build up regular expressions recursively (or if you prefer,
+inductively).  For pattern matching, the lowest level we go is
+characters (for theoretical purposes, there are two regular
+expressions which are, in a sense, even lower level: an expression
+which only matches the empty string ("" in most languages you’re
+familiar with) and an expression which doesn’t actually match any
+string).  The regular expression matching a single character is that
+character (though, since we’re representing regular expressions in our
+code or on the command line as text and as we’ll see, some characters
+have special meanings in the expression, we need to escape some
+characters.  We do this by sticking a \ in front of the character
+(this makes \ such a special character, so the pattern that matches a
+single \ is \\).
 
 ```bash
 $ grep -i 'a' /usr/share/dict/words | wc -l
@@ -195,8 +199,6 @@ having the first character be a `^`, but this can cause bugs, especially
 on Unicode-based systems, so try not to do it. `-` becomes an operator
 in character classes, meaning a range of characters.  This works, most
 of the time, but it can have problems with Unicode.
-
-UNIX: Helping geeks cheat at crossword puzzles since 1971!
 
 The "standard" regular expression facilities have been augmented with
 some extra features which turn them into
