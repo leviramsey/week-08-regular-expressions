@@ -228,8 +228,11 @@ programming languages.
 
 ## Using regular expressions in Scala
 
+[scala.util.matching.Regex]: http://www.scala-lang.org/api/current/index.html#scala.util.matching.Regex
+[java.util.regex.Pattern]: http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
+
 Scala's regular expressions are implemented in a class
-`scala.util.matching.Regex`.  The regular expression syntax is
+[scala.util.matching.Regex].  The regular expression syntax is
 documented in exhaustive detail in the documentation for the Java
 class [java.util.regex.Pattern], though Scala uses some different
 methods to interact with a regular expression.
