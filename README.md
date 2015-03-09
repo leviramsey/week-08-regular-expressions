@@ -8,7 +8,7 @@ pattern. These search patterns can be used to effectively match string
 patterns in text. The idea bloomed in the 1950s with the formalization
 of so called *regular languages* by Stephen Kleene. There is great
 theoretical interest in regular languages, however, they happen to
-also a practical and powerful programming tool that can be used to
+also be a practical and powerful programming tool that can be used to
 great effect on a daily basis to solve complicated file processing
 problems with extreme ease. Knowing how to compose regular
 expressions, apply regular expressions, and implement regular
