@@ -307,8 +307,8 @@ parts of Scala we've spent time on.
 
 ## Derivatives of Regular Expressions
 
-The derivative of a language (remember that a language is just a set
-of strings) with respect to some string *s* is the set of strings
+The derivative of a language *L* (remember that a language is just a
+set of strings) with respect to some string *s* is the set of strings
 which, when *s* is prepended to them, are in the original language.
 In a more formal definition:
 
@@ -327,6 +327,8 @@ derivatives:
 ```
 DfoL = Do(DfL)
 ```
+
+<i>D<sub>fo</sub>L = D<sub>o</sub>(D<sub>f</sub>L)
 
 As it happens, we can prove (if you've passed 250, you probably should
 be able to) that the derivative of a regular language is another
