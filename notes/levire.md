@@ -3,6 +3,12 @@
 <img src="../images/xkcd-208.png" width="50%"
      style="display: block; margin-left: auto; margin-right: auto">
 
+The following notes were compiled by Levi Ramsey from a couple of
+notable sources including [Matt Might] and [??]. Edited and translated
+into Markdown by Tim Richards.
+
+[Matt Might]: http://matt.might.net
+
 ## Overview
 
 A lot of programs can be summarized as:
