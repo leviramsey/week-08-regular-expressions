@@ -1,6 +1,8 @@
 # Week 08: Regular Expressions
 
+<center>
 <img src="images/xkcd-208.png" width="50%">
+</center>
 
 # Overview
 
