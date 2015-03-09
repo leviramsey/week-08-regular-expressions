@@ -1,6 +1,6 @@
 # Week 08: Regular Expressions
 
-# Overview
+## Overview
 
 This week we will be covering [regular expressions]. A regular
 expression is a sequence of characters that form a search
@@ -20,7 +20,7 @@ novice and the expert programmer and computer scientist.
 [zip]: https://github.com/umass-cs-220/week-08-regular-expressions/archive/master.zip
 
 
-# Readings
+## Readings
 
 * [Regular Expression Notes], Compiled by Levi Ramsey
 * [Sculpting Text], Matt Might
@@ -36,3 +36,11 @@ novice and the expert programmer and computer scientist.
 [Using Pattern Matching with Regular Expressions in Scala]: http://ikaisays.com/2009/04/04/using-pattern-matching-with-regular-expressions-in-scala/
 [Matching Regular Expressions]: http://daily-scala.blogspot.com/2009/09/matching-regular-expressions.html
 [Implementing Regular Expressions With Derivatives]: http://matt.might.net/articles/implementation-of-regular-expression-matching-in-scheme-with-derivatives/
+
+## Resources
+
+* [scala.util.matching.Regex]
+* [java.util.regex.Pattern]
+
+[scala.util.matching.Regex]: http://www.scala-lang.org/api/current/index.html#scala.util.matching.Regex
+[java.util.regex.Pattern]: http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
