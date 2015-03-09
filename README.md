@@ -2,7 +2,18 @@
 
 # Overview
 
-This week we will be covering regular expressions.
+This week we will be covering [regular expressions]. A regular
+expression is a sequence of characters that form a search
+pattern. These search patterns can be used to effectively match string
+patterns in text. The idea bloomed in the 1950s with the formalization
+of so called *regular languages* by Stephen Kleene. There is great
+theoretical interest in regular languages, however, they happen to
+also a practical and powerful programming tool that can be used to
+great effect on a daily basis to solve complicated file processing
+problems with extreme ease. Knowing how to compose regular
+expressions, apply regular expressions, and implement regular
+expression engines are one of the true factors the differentiates the
+novice and the expert programmer and computer scientist.
 
 # Readings
 
@@ -13,6 +24,7 @@ This week we will be covering regular expressions.
 * [Matching Regular Expressions], Jesse Eicharl
 * [Implementing Regular Expressions With Derivatives], Matt Might
 
+[regular expressions]: http://en.wikipedia.org/wiki/Regular_expression
 [Regular Expression Notes]: notes/levire.md
 [Sculpting Text]: http://matt.might.net/articles/sculpting-text
 [Scala Regular Expressions]: http://www.tutorialspoint.com/scala/scala_regular_expressions.htm
