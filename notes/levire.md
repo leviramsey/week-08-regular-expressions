@@ -312,10 +312,6 @@ set of strings) with respect to some string *s* is the set of strings
 which, when *s* is prepended to them, are in the original language.
 In a more formal definition:
 
-```
-DsL = { w: sw is in L}
-```
-
 <i>D<sub>s</sub>L = { w : sw &isin; L }</i>
 
 The derivative of the language { "", "foo", "frak", "foofoo",
@@ -323,10 +319,6 @@ The derivative of the language { "", "foo", "frak", "foofoo",
 "ofoo", "ofrak", "ofoofoo", "ofoofrak", "ofrakfoo", "ofrakfrak",
 ... }.  It should probably also be easy to see that we can chain the
 derivatives:
-
-```
-DfoL = Do(DfL)
-```
 
 <i>D<sub>fo</sub>L = D<sub>o</sub>(D<sub>f</sub>L)
 
