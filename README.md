@@ -12,8 +12,8 @@ also be a practical and powerful programming tool that can be used to
 great effect on a daily basis to solve complicated file processing
 problems with extreme ease. Knowing how to compose regular
 expressions, apply regular expressions, and implement regular
-expression engines are one of the true factors the differentiates the
-novice and the expert programmer and computer scientist.
+expression engines are one of the true skills the differentiate the
+novice from the expert programmer.
 
 *To get access to this material [download][zip] the zip archive.*
 
