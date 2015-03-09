@@ -15,6 +15,11 @@ expressions, apply regular expressions, and implement regular
 expression engines are one of the true factors the differentiates the
 novice and the expert programmer and computer scientist.
 
+*To get access to this material [download][zip] the zip archive.*
+
+[zip]: https://github.com/umass-cs-220/week-08-regular-expressions/archive/master.zip
+
+
 # Readings
 
 * [Regular Expression Notes], Compiled by Levi Ramsey
