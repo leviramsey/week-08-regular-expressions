@@ -316,6 +316,8 @@ In a more formal definition:
 DsL = { w: sw is in L}
 ```
 
+<i>D<sub>s</sub>L = { w : sw &isin; L }</i>
+
 The derivative of the language { "", "foo", "frak", "foofoo",
 "foofrak", "frakfoo", "frakfrak", … } with respect to "fo" is { "o",
 "ofoo", "ofrak", "ofoofoo", "ofoofrak", "ofrakfoo", "ofrakfrak",
