@@ -106,7 +106,7 @@ code or on the command line as text and as we’ll see, some characters
 have special meanings in the expression, we need to escape some
 characters.  We do this by sticking a \ in front of the character
 (this makes \ such a special character, so the pattern that matches a
-single \ is \\).
+single \ is \\\\).
 
 ```bash
 $ grep -i 'a' /usr/share/dict/words | wc -l
