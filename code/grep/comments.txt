@@ -1,0 +1,8 @@
+This file shows the comment character in various programming/scripting languages
+### Perl / shell scripting
+If the Line starts with single hash symbol,
+then its a comment in Perl and shell scripting.
+' VB Scripting comment
+The line should start with a single quote to comment in VB scripting.
+// C programming single line comment.
+Double slashes in the beginning of the line for single line comment in C.
