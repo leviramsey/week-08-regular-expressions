@@ -18,9 +18,9 @@ The following set of recursively defined rules test if a regular expression *acc
 * **E3:** &delta;(c) = &empty;
 * **E4:** &delta;(re<sub>1</sub> re<sub>2</sub>) =
   &delta;(re<sub>1</sub>) &delta;(re<sub>2</sub>)
-* **E4:** &delta;(re<sub>1</sub>|re<sub>2</sub>) =
+* **E5:** &delta;(re<sub>1</sub>|re<sub>2</sub>) =
   &delta;(re<sub>1</sub>) | &delta;(re<sub>2</sub>)
-* **E5:** &delta;(re*) = &epsilon;
+* **E6:** &delta;(re*) = &epsilon;
 
 ## Derivative Rules
 
