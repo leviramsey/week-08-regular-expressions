@@ -28,6 +28,7 @@ novice from the expert programmer.
 * [Using Pattern Matching with Regular Expressions in Scala], Ikai Lan
 * [Matching Regular Expressions], Jesse Eicharl
 * [Implementing Regular Expressions With Derivatives], Matt Might
+* [Regular Expression Derivative Notes], Tim Richards
 
 [regular expressions]: http://en.wikipedia.org/wiki/Regular_expression
 [Regular Expression Notes]: notes/levire.md
@@ -36,6 +37,7 @@ novice from the expert programmer.
 [Using Pattern Matching with Regular Expressions in Scala]: http://ikaisays.com/2009/04/04/using-pattern-matching-with-regular-expressions-in-scala/
 [Matching Regular Expressions]: http://daily-scala.blogspot.com/2009/09/matching-regular-expressions.html
 [Implementing Regular Expressions With Derivatives]: http://matt.might.net/articles/implementation-of-regular-expression-matching-in-scheme-with-derivatives/
+[Regular Expression Derivative Notes]: notes/derivative.md
 
 ## Resources
 
