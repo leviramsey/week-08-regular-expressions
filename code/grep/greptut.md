@@ -4,7 +4,7 @@ This is a short tutorial on using regular expressions with
 grep. Before proceeding you should
 [install a dictionary of words][dict].
 
-[dict]: code/grep/install.md
+[dict]: install.md
 
 ## Matching Words
 
@@ -231,7 +231,7 @@ we need to *escape* the `.` so it is matched as `.`:
 
 
 ```bash
-$ grep '3\.3\.02-6' /var/log/dpkg.log 
+$ grep '3\.3\.02-6' /var/log/dpkg.log
 ...
 ```
 
@@ -239,7 +239,7 @@ If we want to refine this to only those packages installed on March 10
 between 6PM and 6:59PM we could do this:
 
 ```bash
-$ grep '....-03-10 18:..:...*install.*3\.3\.02-6' /var/log/dpkg.log 
+$ grep '....-03-10 18:..:...*install.*3\.3\.02-6' /var/log/dpkg.log
 ...
 ```
 
