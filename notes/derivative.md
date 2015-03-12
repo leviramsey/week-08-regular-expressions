@@ -35,7 +35,7 @@ Let *D<sub>c</sub>(re)* denote the derivative of the regular expression *re* wit
     D<sub>c</sub>(re<sub>1</sub>)re<sub>2</sub>
 * **D6:** D<sub>c</sub>(re<sub>1</sub> | re<sub>2</sub>) =
   D<sub>c</sub>(re<sub>1</sub>) | D<sub>c</sub>(re<sub>2</sub>)
-* **D7:** D<sub>c</sub>(re*) = D<sub>c</sub>(re) re*;
+* **D7:** D<sub>c</sub>(re\*) = D<sub>c</sub>(re) re\*;
 
 ## Examples
 
